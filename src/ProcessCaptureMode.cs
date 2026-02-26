@@ -1,11 +1,11 @@
-using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Enums.ProcessCaptureModes;
 
 /// <summary>
 /// Defines how process output should be captured.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public partial class ProcessCaptureMode
 {
 }
