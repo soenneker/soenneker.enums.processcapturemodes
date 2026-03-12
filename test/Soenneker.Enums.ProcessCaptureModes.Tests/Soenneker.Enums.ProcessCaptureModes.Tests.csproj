@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Enums.ProcessCaptureModes.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Enums.ProcessCaptureModes\Soenneker.Enums.ProcessCaptureModes.csproj" />
     </ItemGroup>
 
     <ItemGroup>
