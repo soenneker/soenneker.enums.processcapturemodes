@@ -8,4 +8,5 @@ namespace Soenneker.Enums.ProcessCaptureModes;
 [EnumValue<string>]
 public partial class ProcessCaptureMode
 {
+    public static readonly ProcessCaptureMode Inherit = new(nameof(Inherit));
 }
