@@ -1,16 +1,13 @@
-I
-[![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.enums.processcapturemodes/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.enums.processcapturemodes/actions/workflows/codeql.yml)
-n
-i
-t
-i
-a
-l
-i
-z
-i
-n
-g
-.
-.
-.
+# Soenneker.Enums.ProcessCaptureModes
+
+Defines how process output should be captured.
+
+## Install
+
+```bash
+dotnet add package Soenneker.Enums.ProcessCaptureModes
+```
+
+## What you get
+
+- `ProcessCaptureMode` — Defines how process output should be captured.
