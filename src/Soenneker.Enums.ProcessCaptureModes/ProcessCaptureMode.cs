@@ -3,13 +3,13 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Enums.ProcessCaptureModes;
 
 /// <summary>
-/// Defines how process output should be captured.
+/// Identifies how a process runner should handle child-process output.
 /// </summary>
 [EnumValue<string>]
 public partial class ProcessCaptureMode
 {
     /// <summary>
-    /// The inherit.
+    /// Leaves output handling with the parent or invoking environment.
     /// </summary>
     public static readonly ProcessCaptureMode Inherit = new(nameof(Inherit));
 }
