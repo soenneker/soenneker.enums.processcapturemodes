@@ -45,6 +45,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Gen.EnumValues" Version="4.0.56" />
+        <PackageReference Include="Soenneker.Gen.EnumValues" Version="4.0.61" />
     </ItemGroup>
 </Project>
